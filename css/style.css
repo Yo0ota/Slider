@@ -1,0 +1,49 @@
+body {
+    font-family: 'segoe ui light';
+}
+.items{
+    position: relative;
+    cursor: pointer;
+}
+.content{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 5px;
+}
+.layer{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);  
+    display: none;
+
+}
+.layer-img{
+    width: 50%;
+    height: 550px;
+    background-image: url("../images/portfolio-1.jpg");
+    background-size: 100% 100%; 
+    position: relative;
+}
+.layer .content{
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    left: 20px;
+    background-color: #fff;
+    padding: 20px;
+}
+.layer i{
+    font-size: 20px;
+    cursor: pointer;
+}
+#close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
